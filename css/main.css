@@ -1,0 +1,56 @@
+body{
+	padding: 0;
+	margin: 0;
+	position: relative;
+	width: 100%;
+}
+
+.slideWrapper{
+	float: left;
+	margin: 50px 50px;
+	width: 85%;
+	height: auto;
+	/*border: 1px solid green;*/
+}
+
+.slick-slide{
+	width: 300px;
+	padding: 5px;
+	margin: 5px;
+}
+
+
+.slick-arr-next{
+	border: 0;
+ 	height: 50px;
+ 	width: 50px;
+ 	background: url('../img/left-arrow.png') no-repeat;
+ 	margin: 215px 0 0 50px;
+
+}
+.slick-arr-prev{
+	float: left;
+	border: 0;
+ 	height: 50px;
+ 	width: 50px;
+  	background: url('../img/right-arrow.png') no-repeat;
+  	margin-top: 215px;
+
+}
+
+.slideArrLeft{
+	width: 50px;
+	height: 50px;
+	
+	float: left;
+	margin-top: 260px;
+
+}
+
+.slideArrRight{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-top: 260px;
+}
+
